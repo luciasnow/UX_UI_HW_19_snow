@@ -1,5 +1,5 @@
 
-$(".logo").click (function(){
+$(".logo").hover (function(){
     $(".logo").animate({
       height: "-=15px",
       width: "-=15px"
@@ -7,4 +7,8 @@ $(".logo").click (function(){
         height: "+=15px",
         width: "+=15px"
       });
+});
+
+$("a").hover (function(){
+  $(".logo").fadeTo(500, 0.4);
 });
