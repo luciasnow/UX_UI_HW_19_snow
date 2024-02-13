@@ -39,7 +39,7 @@ h1 {
 }
 
 
-#logo {
+.logo {
     height: 170%;
     display: inline-block;
     margin-bottom: 20px;
@@ -55,7 +55,7 @@ h1 {
     text-align: center;
 }
 
-#headshot {
+.headshot {
     width: 90%;
     vertical-align: center;
 }
