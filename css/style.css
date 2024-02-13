@@ -46,6 +46,10 @@ h1 {
     margin-left: 50px;
 }
 
+.logo:hover {
+    height: 200%;
+}
+
 #aside {
     grid-area: asideContent;
     margin-top: 140px;
