@@ -1,0 +1,106 @@
+
+h1 {
+    font-size: 36px;
+}
+
+.navHeader {
+    text-decoration: none;
+    color: black;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f5f1;
+}
+
+#logo {
+    height: 170%;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f5f1;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 5% 80% 15%;
+    grid-template-areas: 
+    "headerContent headerContent"
+    "asideContent bodyContent"
+    "footerContent footerContent";
+}
+
+#header {
+    grid-area: headerContent;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav {
+    height: 100%;
+    display: inline-block;
+    vertical-align: auto;
+    margin: 60px;
+}
+
+#aside {
+    grid-area: asideContent;
+    margin-top: 140px;
+}
+
+#headshotBox {
+    text-align: center;
+}
+
+#headshot {
+    width: 90%;
+    vertical-align: center;
+}
+
+#bio {
+    padding: 20px;
+}
+
+#bodyContent {
+    grid-area: bodyContent;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+
+#recentProjects {
+    padding: 20px;
+    background-color: #a8baa4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.portfolioPreview {
+    padding-top: 35px;
+}
+
+#footer {
+    grid-area: footerContent;
+    background-color: #88292f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+#backTop {
+    color: white;
+    margin-right: 40px;
+    margin-top: 30px;
+    text-decoration:none;
+}
+
+.socialIcons {
+    height: 34px;
+    padding-right: 2.5px;
+}
